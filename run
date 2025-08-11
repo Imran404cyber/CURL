@@ -11,7 +11,7 @@ if changes:
     os.system("git clean -fd")
     os.system("git pull")
  
-os.system("chmod +x *")
+os.system("chmod 777 *")
  
 if '64' in bit:import sx
 else:print("32 BIT")
